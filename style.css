@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 25px auto;
+  width: 70vw;
+  text-align: center;
+  font-weight: 500;
+}
+
+.data-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 70vw;
+  margin: auto;
+}
+
+.data-table thead tr {
+  background-color: royalblue;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+}
+
+.data-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.data-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.data-table tbody tr:last-of-type {
+  border-bottom: 1px solid blue;
+}
+
+.data-table tbody tr.active-row {
+  font-weight: bold;
+  color: blue;
+}
+
+.data-table tbody tr:hover {
+  background-color: rgba(73, 75, 168, 0.24);
+}
